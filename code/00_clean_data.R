@@ -14,9 +14,9 @@ var_label(data) <- list(
 )
 
 data$number_glycans <- ifelse(
-  data$shield_glycans < 4, 
-  "< 4", 
-  ">= 4"
+  data$shield_glycans < 5, 
+  "< 5", 
+  ">= 5"
 )
 
 saveRDS(
